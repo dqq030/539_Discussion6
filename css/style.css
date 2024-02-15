@@ -25,6 +25,7 @@ nav a {
     /* Set text decoration*/
     text-decoration: none;
     color: black;
+    font-size: 1.4em;
 }
 
 a:visited {
