@@ -114,17 +114,18 @@ and have a border */
 .grid div:nth-child(3n+1) {
     /* Set box shadow */
     /* set on both side */
-    box-shadow: 3px 0 0 0 #000, -3px 0 0 0 #000;
+
+    box-shadow: -3px 0 0 0 #000;
 }
 
 .grid div:nth-child(3n) {
     /* Set box shadow */
-    box-shadow: -3px 0 0 0 #000;
+    box-shadow: 3px 0 0 0 #000;
 }
 
 .grid div:nth-child(3n+2) {
     /* Set box shadow */
-    box-shadow: 3px 0 0 0 #000;
+    box-shadow: 3px 0 0 0 #000, -3px 0 0 0 #000;
 }
 
 p+p {
