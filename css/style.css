@@ -1,85 +1,105 @@
-body{
-   /* Set line spacing */
+body {
+    /* Set line spacing */
+    line-height: 1.5;
 }
 
 
-header, nav{
+
+header,
+nav {
     /* Set padding and margin */
+    padding: 5px 10px;
 
 }
-nav ul li{
+
+nav ul li {
     /* Set display, margin, padding, font-size, background-color */
-
+    display: inline;
+    margin: 0 10px;
+    padding: 5px 10px;
+    font-size: 1.2em;
+    background-color: #f2f2f2;
 }
 
-nav a{
+nav a {
     /* Set text decoration*/
+    text-decoration: none;
 }
 
-a:visited{
+a:visited {
     /* Set color */
+    color: #000;
+}
+
+nav a.current {
+    /* Set text decoration wavy underline, transformation, and underline properties */
+    text-decoration: wavy underline;
+    text-transform: uppercase;
+    /* move that wavy line down a bit */
+    text-underline-offset: 0.2em;
+}
+
+
+h1 {
+    /*Set font and font size*/
 
 }
 
-nav a.current{
-    /* Set text decoration, transformation, and underline properties */
-}
-
-
-h1{
-   /*Set font and font size*/
-
-}
-
-h2{
+h2 {
     /*Set font, font size, and alignment*/
 }
 
-h3{
+h3 {
     /*Set font size*/
 
 }
 
-h1, h2, h3{
+h1,
+h2,
+h3 {
     /*Set margin */
+    font-size: 2em;
+    font-family: 'Arial', sans-serif;
+    margin: 15px;
 
 }
-.grid{
+
+.grid {
     /*Set width, margin, border properties, background color, and grid properties */
 }
 
-.grid div{
+.grid div {
     /* Set border properties, padding, and background color */
 
 }
 
-.grid img{
+.grid img {
     /* Set width, margin, and display */
 }
 
 
-.grid div:nth-child(3n+1)  {
+.grid div:nth-child(3n+1) {
     /* Set box shadow */
-    }
-
-.grid div:nth-child(3n)  {
-    /* Set box shadow */ 
 }
 
-.grid div:nth-child(3n+2)  {
-     /* Set box shadow */
+.grid div:nth-child(3n) {
+    /* Set box shadow */
 }
-    
 
-p + p {
-     /* Set indentation */
-  }
-  
-p{
-     /* Set margin */
+.grid div:nth-child(3n+2) {
+    /* Set box shadow */
 }
 
 
-.grid ul li{
+p+p {
+    /* Set indentation */
+}
+
+p {
+    /* Set margin */
+}
+
+
+.grid ul li {
     /* Set margin, line-spacing, list styling  */
 }
