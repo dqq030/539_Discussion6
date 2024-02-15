@@ -17,7 +17,7 @@ nav ul li {
     display: inline;
     margin: 0 10px;
     padding: 5px 10px;
-    font-size: 1.2em;
+    font-size: 2em;
     background-color: #f2f2f2;
 }
 
@@ -35,24 +35,10 @@ nav a.current {
     /* Set text decoration wavy underline, transformation, and underline properties */
     text-decoration: wavy underline;
     text-transform: uppercase;
-    /* move that wavy line down a bit */
+    color: blue;
     text-underline-offset: 0.2em;
 }
 
-
-h1 {
-    /*Set font and font size*/
-
-}
-
-h2 {
-    /*Set font, font size, and alignment*/
-}
-
-h3 {
-    /*Set font size*/
-
-}
 
 h1,
 h2,
@@ -64,17 +50,61 @@ h3 {
 
 }
 
+h1 {
+    /*Set font and font size*/
+
+}
+
+h2 {
+    /*Set font, font size, and alignment*/
+    font-size: 1.7em;
+    text-align: left;
+}
+
+h3 {
+    /*Set font size*/
+    font-size: 1.4em;
+
+}
+/* 
+It should be 90% of the body and centered It should have a border radius It should be a grid with two equally sized columns Space them horizontally to match mine Leave 10px between each column Leave 10px between each row Style the images to take up 90% of the space in the columns */
+
 .grid {
     /*Set width, margin, border properties, background color, and grid properties */
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    padding: 10px;
 }
 
 .grid div {
     /* Set border properties, padding, and background color */
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #f2f2f2;
+    border: 2px solid #000;
 
 }
 
 .grid img {
     /* Set width, margin, and display */
+    width: 90%;
+    border: 2px solid #000;
+    margin: 0 auto;
+    display: block;
+}
+
+/* a.It should be 90% of the body and centered b.It should have a border radius c.It should be a grid with three equally sized columns d.Space them horizontally to match mine e.Leave 10px between each column f.Leave 10px between each row g.Style the images to take up 90% of the available space,
+be centered,
+and have a border */
+@media screen and (min-width: 1000px){
+    .grid {
+        /* Set grid properties */
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
 }
 
 
